@@ -7,6 +7,7 @@ public enum RatingImage: String {
     case star = "star"
     case heart = "heart"
     case thumbup = "hand.thumbsup"
+    case circle = "circle"
     
     var fillImage: Image {
         Image(systemName: rawValue + ".fill")
