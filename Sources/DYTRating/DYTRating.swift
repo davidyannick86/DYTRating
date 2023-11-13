@@ -6,6 +6,7 @@ import SwiftUI
 public enum RatingImage: String {
     case star = "star"
     case heart = "heart"
+    case thumbup = "hand.thumbsup"
     
     var fillImage: Image {
         Image(systemName: rawValue + ".fill")
